@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1E2761;
+  --deep-blue: #065A82;
+  --teal: #0891B2;
+  --light-teal: #06B6D4;
+  --cream: #F8FAFC;
+  --gold: #F59E0B;
+  --body: #334155;
+  --muted: #64748B;
+}
+
+@theme inline {
+  --color-background: var(--cream);
+  --color-foreground: var(--body);
+  --color-navy: var(--navy);
+  --color-deep-blue: var(--deep-blue);
+  --color-teal-brand: var(--teal);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--cream);
+  color: var(--body);
+}
