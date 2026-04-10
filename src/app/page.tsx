@@ -10,7 +10,7 @@ export default function Home() {
         </div>
         <Link
           href="/admin"
-          className="text-sm text-muted hover:text-gold transition-colors"
+          className="text-sm text-white/70 hover:text-gold transition-colors"
         >
           Admin
         </Link>
@@ -27,7 +27,7 @@ export default function Home() {
             <p className="text-2xl text-light-teal font-semibold">
               Fundación Grupo Cajamar
             </p>
-            <p className="text-sm text-muted italic">by DCK Studios</p>
+            <p className="text-sm text-white/60 italic">by DCK Studios</p>
           </div>
 
           {/* Description */}
@@ -59,24 +59,24 @@ export default function Home() {
             <div className="space-y-3">
               <div className="text-4xl">📋</div>
               <h3 className="text-light-teal font-semibold">Registro</h3>
-              <p className="text-sm text-muted">Completa tus datos básicos</p>
+              <p className="text-sm text-white/70">Completa tus datos básicos</p>
             </div>
             <div className="space-y-3">
               <div className="text-4xl">📊</div>
               <h3 className="text-light-teal font-semibold">Cuestionarios</h3>
-              <p className="text-sm text-muted">Responde 6 evaluaciones</p>
+              <p className="text-sm text-white/70">Responde 6 evaluaciones</p>
             </div>
             <div className="space-y-3">
               <div className="text-4xl">📈</div>
               <h3 className="text-light-teal font-semibold">Resultados</h3>
-              <p className="text-sm text-muted">Obtén tu análisis completo</p>
+              <p className="text-sm text-white/70">Obtén tu análisis completo</p>
             </div>
           </div>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-navy border-t border-deep-blue px-8 py-6 text-center text-muted text-sm">
+      <footer className="bg-navy border-t border-deep-blue px-8 py-6 text-center text-white/60 text-sm">
         <p>© 2025 Fundación Grupo Cajamar. Metodología KGA-F by DCK Studios.</p>
       </footer>
     </div>
