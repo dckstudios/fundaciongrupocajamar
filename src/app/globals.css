@@ -16,8 +16,12 @@
   --color-foreground: var(--body);
   --color-navy: var(--navy);
   --color-deep-blue: var(--deep-blue);
-  --color-teal-brand: var(--teal);
+  --color-teal: var(--teal);
+  --color-light-teal: var(--light-teal);
+  --color-cream: var(--cream);
   --color-gold: var(--gold);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

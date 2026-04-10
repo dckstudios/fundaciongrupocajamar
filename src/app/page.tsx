@@ -46,7 +46,7 @@ export default function Home() {
           <div className="pt-2">
             <Link
               href="/registro"
-              className="inline-block px-12 py-4 bg-gold hover:bg-amber-400 text-navy font-bold text-lg rounded-lg transition-all hover:shadow-xl hover:scale-105 duration-200 shadow-lg shadow-gold/20"
+              className="inline-block px-12 py-4 bg-gold hover:bg-amber-400 text-navy font-bold text-lg rounded-lg transition-all hover:shadow-xl hover:scale-105 duration-200 shadow-lg"
             >
               Comenzar Assessment
             </Link>
